@@ -14,7 +14,7 @@ This project was developed as the final project for the course **Realidad Virtua
 
 ## Technologies Used
 
-- **【entity-Unity 6¦canonical_name=Unity】.3 LTS** - Main game engine
+- **Unity 6.3 LTS** - Main game engine
 - **XR Interaction Toolkit** - VR interactions, ray interactor, grab interactable
 - **OpenXR** - Open standard for VR runtime
 - **Meta Quest SDK** - Deployment and testing on Meta Quest 3
@@ -34,9 +34,9 @@ This project was developed as the final project for the course **Realidad Virtua
 
 ## How to Build and Install the APK
 
-### Build Settings in 【entity-Unity¦canonical_name=Unity】
+### Build Settings in Unity
 
-1. Open the project in **【entity-Unity 6¦canonical_name=Unity】.3 LTS**.
+1. Open the project in **Unity 6.3 LTS**.
 2. Open the scene `DemoScene_BACKUP_FASE3`.
 3. Go to **File > Build Profiles > Android**.
 4. Verify in **Player Settings**:
