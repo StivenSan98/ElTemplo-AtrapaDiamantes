@@ -57,3 +57,59 @@ This project was developed as the final project for the course **Realidad Virtua
 
 1. Uninstall any previous version (v1, v2) from the Quest to avoid conflicts.
 2. Connect the Quest to PC via USB or use SideQuest / ADB:
+Put on the headset, open the app **El Templo** from the library.
+4. Use the controllers to point with the ray and press **INICIAR** to start.
+
+### Controls
+
+- **VR:** Ray + Trigger to press buttons, Grip to grab crystals
+- **PC Test (Simulator):**
+    - Enter = INICIAR
+    - C = CRÉDITOS
+    - V / Esc = VOLVER
+    - R = REINICIAR when GANASTE / FIN
+
+## Performance
+
+- **Target Framerate:** >= 72 fps
+- **Profiler test in Unity Editor:** CPU 7.5 ms, GPU 1.7 ms - within target frame time
+- **Lighting:** Baked lightmaps (6 lightmaps, 1024x1024) to reduce draw calls
+- **Canvas:** World Space with Rotation Y 180 to be readable and clickable in VR
+
+## Known Issues and Future Improvements
+
+### Known Issues
+
+- The walls can appear pink on some devices if Vulkan is left enabled. Solution: keep only OpenGLES3 in Graphics APIs.
+- If the APK is installed over an old version without uninstalling, the old Package Name can cause conflicts. Solution: uninstall v1/v2 before installing v3.
+- The project was tested mainly on Meta Quest 3. Performance on Quest 2 was not tested.
+
+### Future Improvements
+
+- Add more levels with different temple layouts and more crystals.
+- Add a difficulty system: more time on easy, less time on hard.
+- Add hand tracking support as an alternative to controllers.
+- Add a leaderboard and save the best time with PlayerPrefs.
+- Add more sound effects and background music with volume control in settings.
+- Improve textures and models of the temple to make the environment more realistic.
+
+## AI Tools Used (Declaration Summary)
+
+AI tools were used as **support** during development, not as replacement for the student's work:
+
+- Used for reviewing C# code errors, console warnings and build configuration.
+- Used for organizing documentation, README structure and technical writing in English.
+- Used for understanding XR Interaction Toolkit setup, World Space Canvas configuration and Profiler results.
+
+All design decisions, programming, testing, build generation and final presentation were done by the student.
+
+## Links
+
+- **Source Code (.zip) / Project:** https://drive.google.com/file/d/18I8Y1aFetS0qB1et60T_5vxVjte_bSFr/view?usp=sharing
+- **APK:** [Add Google Drive link here - ElTemplo_v3.apk]
+- **Evidence Video:** [Add YouTube / Google Drive link here]
+- **Showcase (itch.io):** [Add itch.io link here]
+
+## License
+
+Academic project - UNAD - Realidad Virtual - 2026
