@@ -108,7 +108,7 @@ All design decisions, programming, testing, build generation and final presentat
 - **Source Code (.zip) / Project:** https://drive.google.com/file/d/18I8Y1aFetS0qB1et60T_5vxVjte_bSFr/view?usp=sharing
 - **APK:** [Add Google Drive link here - ElTemplo_v3.apk]
 - **Evidence Video:** [Add YouTube / Google Drive link here]
-- **Showcase (itch.io):** [Add itch.io link here]
+- **Showcase (itch.io):**[ [Add itch.io link here]](https://stivensan98.itch.io/el-templo-atrapa-diamantes)
 
 ## License
 
