@@ -2,7 +2,7 @@
 
 ## Project Title and Brief Description
 
-**El Templo - Atrapa Diamantes** is a Virtual Reality game developed in Unity 6.3 LTS for Meta Quest 3.
+**El Templo - Atrapa Diamantes** is a Virtual Reality game developed in 【entity-Unity¦canonical_name=Unity】 6.3 LTS for Meta Quest 3.
 
 The player appears inside a temple / mine environment with dark walls, torches and floating crystals. The goal is simple: catch **4 diamond crystals in 40 seconds**.
 
